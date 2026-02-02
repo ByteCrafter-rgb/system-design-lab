@@ -15,5 +15,8 @@ Latency is largely the time spent waiting and not the time spent to do the proce
 Learning about multi-threading and parallelism and difference between both.
 
 ```
-Single core CPUs achieve parallelism thourgh context switching mid task to mimic multi-threading.
+Single core CPUs achieve concurrency through context switching mid task to mimic parallelism.
+It still experiences wait time.
+Parallesim : simultaneous exceution
+Concurrency : interleaving progress
 ```
