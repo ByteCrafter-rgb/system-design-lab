@@ -20,3 +20,11 @@ It still experiences wait time.
 Parallesim : simultaneous exceution
 Concurrency : interleaving progress
 ```
+
+## Day 3
+
+Concurrency allows the CPU to switch between tasks, but in Java's ExecutorService, a Thread is the unit of execution.
+
+```
+One thread can only execute one task at a time in java.
+```
