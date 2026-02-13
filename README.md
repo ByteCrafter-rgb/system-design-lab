@@ -40,3 +40,5 @@ Dependency: Sometimes Task B needs the result of Task A.
 State: The server might not know how long a task will take until it actually starts running it.
 
 Integrity: If packets arrive out of order, the application might get corrupted data.
+
+![Network Tab Waterfall](/assets/network-tab.png)
