@@ -28,3 +28,15 @@ Concurrency allows the CPU to switch between tasks, but in Java's ExecutorServic
 ```
 One thread can only execute one task at a time in java.
 ```
+
+## Day 4
+
+It might seem primitive, but Head-of-Line (HOL) Blocking was a defining limitation of the internet for decades. In the early days of the web, efficiency was sacrificed for simplicity, and we are still evolving protocols today to fully escape it.
+
+You might think, "Why not just move the fast tasks to the front?" In a real network (like TCP), this is incredibly hard because:
+
+Dependency: Sometimes Task B needs the result of Task A.
+
+State: The server might not know how long a task will take until it actually starts running it.
+
+Integrity: If packets arrive out of order, the application might get corrupted data.
