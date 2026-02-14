@@ -42,3 +42,7 @@ State: The server might not know how long a task will take until it actually sta
 Integrity: If packets arrive out of order, the application might get corrupted data.
 
 ![Network Tab Waterfall](/assets/network-tab.png)
+
+## Day 5
+
+Due to arrival rate of requests being higher than the rate of servicing of requests, queue formation is inherent part of any system.
