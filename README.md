@@ -46,3 +46,22 @@ Integrity: If packets arrive out of order, the application might get corrupted d
 ## Day 5
 
 Due to arrival rate of requests being higher than the rate of servicing of requests, queue formation is inherent part of any system.
+
+```
+--- Starting Real-Time Queue Lab ---
+   Processing Task 1...
+Task 1 arrived. Queue size is now: 1
+Task 2 arrived. Queue size is now: 1
+Task 3 arrived. Queue size is now: 2
+   Task 1 finished!
+   Processing Task 2...
+Task 4 arrived. Queue size is now: 2
+Task 5 arrived. Queue size is now: 3
+   Task 2 finished!
+   Processing Task 3...
+   Task 3 finished!
+   Processing Task 4...
+   Task 4 finished!
+   Processing Task 5...
+   Task 5 finished!
+```
