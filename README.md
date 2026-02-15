@@ -65,3 +65,5 @@ Task 5 arrived. Queue size is now: 3
    Processing Task 5...
    Task 5 finished!
 ```
+
+# Day 5 Queue Formation Under Load
